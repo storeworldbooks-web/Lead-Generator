@@ -1,0 +1,10 @@
+{
+  "assertions": [
+    { "resource-summary.document.size": ["warn", { "maxNumericValue": 14000 }] },
+    { "first-contentful-paint": ["warn", { "maxNumericValue": 3000 }] },
+    { "interactive": ["warn", { "maxNumericValue": 5000 }] },
+    { "speed-index": ["warn", { "maxNumericValue": 4000 }] },
+    { "total-blocking-time": ["warn", { "maxNumericValue": 500 }] },
+    { "cumulative-layout-shift": ["warn", { "maxNumericValue": 0.1 }] }
+  ]
+}
